@@ -1,6 +1,8 @@
-#include <iostream>
+#define CATCH_CONFIG_MAIN
 
-int main()
+#include <catch2/catch.hpp>
+
+TEST_CASE("Hello, world")
 {
-    std::cout << "This is test" << std::endl;
+    REQUIRE([] { return 42; }() == 42);
 }
