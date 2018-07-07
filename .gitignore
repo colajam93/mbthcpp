@@ -46,3 +46,6 @@ compile_commands.json
 CTestTestfile.cmake
 
 # End of gim (This .gitignore is managed by gim)
+
+### Build directory ###
+build/
