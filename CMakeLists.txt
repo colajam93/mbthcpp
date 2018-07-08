@@ -6,7 +6,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 # library
 
-set(header_files)
+set(header_files
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/mbth/Iterators/Combinations.hpp)
 
 add_library(mbth INTERFACE)
 target_sources(mbth INTERFACE ${header_files})
